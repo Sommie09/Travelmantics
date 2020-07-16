@@ -3,8 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
         <item
             android:id="@+id/save_menu"
-            android:title="SAVE"
-            app:showAsAction="always">
+            android:title="Save"
+            app:showAsAction="never">
+        </item>
+
+
+        <item
+            android:id="@+id/delete_deal"
+            android:title="Delete"
+            app:showAsAction="never">
 
         </item>
 </menu>
